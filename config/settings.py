@@ -34,8 +34,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     "rest_framework",
+    "django_filters",
     "drf_yasg",
-    "corsheaders",
+    # "corsheaders",
     "drf_spectacular",
     "django_celery_beat",
 
@@ -144,4 +145,7 @@ CELERY_TIMEZONE = TIME_ZONE
 CELERY_TASK_TRACK_STARTED = True
 CELERY_TASK_TIME_LIMIT = 30 * 60
 
-# TELEGRAM_BOT_TOKEN =
+TELEGRAM_BOT_TOKEN = getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = getenv("TELEGRAM_CHAT_ID")
+
+TELEGRAM_URL = "https://api.telegram.org/bot"

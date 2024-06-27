@@ -6,6 +6,9 @@ from habits.validators import related_habit_or_reward, execution_time_no_more_12
 
 
 class HabitSerializer(serializers.ModelSerializer):
+    """
+    Сериализатор для модели Привычка.
+    """
     class Meta:
         model = Habit
         exclude = ('owner',)

@@ -7,13 +7,13 @@ NULLABLE = {'null': True, 'blank': True}
 
 
 class Habit(models.Model):
-    PERIOD_DAY_1 = 'раз в день'
-    PERIOD_DAY_2 = 'раз в 2 дня'
-    PERIOD_DAY_3 = 'раз в 3 дня'
-    PERIOD_DAY_4 = 'раз в 4 дня'
-    PERIOD_DAY_5 = 'раз в 5 дня'
-    PERIOD_DAY_6 = 'раз в 6 дня'
-    PERIOD_DAY_7 = 'раз в неделю'
+    PERIOD_DAY_1 = 1
+    PERIOD_DAY_2 = 2
+    PERIOD_DAY_3 = 3
+    PERIOD_DAY_4 = 4
+    PERIOD_DAY_5 = 5
+    PERIOD_DAY_6 = 6
+    PERIOD_DAY_7 = 7
 
     PERIODICITY = (
         (PERIOD_DAY_1, 'раз в день'),
