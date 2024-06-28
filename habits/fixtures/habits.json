@@ -3,7 +3,7 @@
     "model": "habits.habit",
     "pk": 1,
     "fields": {
-      "owner": 12,
+      "owner": 1,
       "place": "Спальная комната",
       "time": "07:00:00",
       "action": "Сделать зарядку",
@@ -11,7 +11,7 @@
       "related_habit": null,
       "period": 1,
       "reward": null,
-      "time_execution": 120,
+      "time_execution": "00:02:00",
       "is_public": true
     }
   },
@@ -19,7 +19,7 @@
     "model": "habits.habit",
     "pk": 2,
     "fields": {
-      "owner": 12,
+      "owner": 1,
       "place": "Кухня",
       "time": "08:00:00",
       "action": "Выпить с утра стакан воды",
@@ -27,7 +27,7 @@
       "related_habit": null,
       "period": 1,
       "reward": null,
-      "time_execution": 20,
+      "time_execution": "00:02:00",
       "is_public": true
     }
   },
@@ -35,7 +35,7 @@
     "model": "habits.habit",
     "pk": 3,
     "fields": {
-      "owner": 12,
+      "owner": 1,
       "place": "Дом",
       "time": "12:00:00",
       "action": "Поддержание чистоты в доме",
@@ -43,7 +43,7 @@
       "related_habit": null,
       "period": 1,
       "reward": null,
-      "time_execution": 120,
+      "time_execution": "00:02:00",
       "is_public": true
     }
   },
@@ -51,7 +51,7 @@
     "model": "habits.habit",
     "pk": 4,
     "fields": {
-      "owner": 12,
+      "owner": 1,
       "place": "Любое",
       "time": "09:00:00",
       "action": "Планирование задач",
@@ -59,7 +59,7 @@
       "related_habit": null,
       "period": 1,
       "reward": null,
-      "time_execution": 120,
+      "time_execution": "00:02:00",
       "is_public": true
     }
   }

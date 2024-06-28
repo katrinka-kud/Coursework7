@@ -3,13 +3,13 @@ from datetime import timedelta
 from rest_framework import serializers
 
 
-def related_habit_or_reward(self):
-    if self.related_habit and self.reward:
+def related_habit_or_reward(value):
+    if value.get('related_habit') and value.get('reward'):
         raise serializers.ValidationError('Нельзя одновременно указывать связанную привычку и вознаграждение.')
 
 
 def execution_time_no_more_120_seconds(value):
-    if value['time_execution'] > timedelta(seconds=120):
+    if value['time_execution'] > timedelta(minutes=2):
         raise serializers.ValidationError('Время на выполнение не должно превышать 120 секунд.')
 
 

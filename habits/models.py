@@ -34,7 +34,7 @@ class Habit(models.Model):
     period = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(7)], default=PERIOD_DAY_1,
                                  choices=PERIODICITY, verbose_name='периодичность')
     reward = models.CharField(max_length=300, **NULLABLE, verbose_name='вознаграждение')
-    time_execution = models.IntegerField(default=timedelta(seconds=120), verbose_name='время на выполнение')
+    time_execution = models.DurationField(default=timedelta(seconds=120), verbose_name='время на выполнение')
     is_public = models.BooleanField(default=False, verbose_name='публичная')
 
     def __str__(self):
