@@ -9,7 +9,8 @@
 ## Шаг 2: Клонирование репозитория
 
 
-<kbd>git clone git@github.com:katrinka-kud/Coursework7.git</kbd>
+git clone https://github.com/katrinka-kud/DRF-project.git
+cd repository
 
 
 ## Шаг 3: Настройка окружения
@@ -19,7 +20,7 @@
 ## Шаг 4: Сборка и запуск контейнеров
 
 
-<kbd>docker-compose up --build</kbd>
+docker-compose up --build
 
 
 ## Шаг 5: Проверка работоспособности
@@ -29,7 +30,7 @@
 ## Шаг 6: Остановка контейнеров
 
 
-<kbd>docker-compose down</kbd>
+docker-compose down
 
 
 Поздравляю! Теперь вы успешно запустили проект с использованием Docker. Если у вас возникли проблемы или вопросы, обратитесь к документации Docker или обратитесь к разработчику проекта.
