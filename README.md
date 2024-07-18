@@ -9,7 +9,7 @@
 ## Шаг 2: Клонирование репозитория
 
 
-git clone https://github.com/katrinka-kud/DRF-project.git
+git clone https://github.com/katrinka-kud/Coursework7.git
 cd repository
 
 
